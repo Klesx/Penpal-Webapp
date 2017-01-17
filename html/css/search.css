@@ -1,0 +1,119 @@
+.search_box {
+	width: 500px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.search_result_container div {
+	float: left;
+  clear: none;
+}
+
+.search_table {
+
+	 border: 1px solid black;
+}
+
+.results_box {
+	display: inline-block;
+	width: 820px;
+	height: 600px;
+	overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.result_text {
+	border-bottom: 1px solid grey;
+	width: 800px;
+	text-align: center;
+}
+
+.results_table {
+	#border: 1px solid black;
+	width: 800px;
+}
+
+.results_image {
+	  background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	padding: 10px;
+
+}
+
+.table_data_image {
+	width: 100px;
+}
+
+.table_data_details {
+	font-size: 16px;
+	vertical-align: top;
+	padding-left: 6px;
+	width: 250px;
+}
+
+.table_data_name:hover {
+	font-weight: bold;
+}
+
+.table_data_name {
+	display: inline-block;
+}
+
+.search_native_language {
+	font-size: 12px;
+	color: green;
+}
+
+.search_status {
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	color: green;
+}
+
+.sex_symbol {
+	vertical-align: top;
+	padding-top: 4px;
+}
+
+.search_learning_language_level {
+	padding: 10px;
+	display: block;
+
+}
+.table_data_location {
+	font-size: 12px;
+	vertical-align: top;
+
+}
+
+
+.search_learning_language {
+	font-size: 12px;
+	color: red;
+}
+
+.table_data_age {
+	font-size: 16px;
+	display: inline-block;
+	color:green;
+}
+
+.table_data_sex {
+	display: inline-block;
+}
+
+.table_data_description {
+	vertical-align: top;
+}
+
+.learning_language_table {
+	float: right;
+}
+
+.native_language_table {
+	float: left;
+}

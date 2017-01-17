@@ -1,0 +1,58 @@
+
+.popupBox {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DADADA;
+    color: #333333;
+    overflow:hidden;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    width : 300px;
+    text-align : left;
+
+    visibility:hidden;
+    opacity:0;
+    float: right;
+    -webkit-transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+    -moz-transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+    -o-transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+    transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition:all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay:1s;
+    transition-delay: 1s;
+}
+.popupHoverElement {
+    position:relative;
+
+    line-height:27px;
+    display:block;
+    border:0px solid #dadada;
+    margin:0px 5px 0px 5px;
+    text-align:left;
+    width : 500px;
+}
+
+.popupHoverElement:hover > .popupBox {
+
+    visibility:visible;
+    opacity:1000;
+    width: 500px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 2s;
+}
+
+.translation_source_target {
+    float: right;
+}

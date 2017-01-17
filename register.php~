@@ -1,0 +1,15 @@
+<?php
+  $dbc = mysqli_connect('129.31.220.176', 'root', 'Master95', 'penpal_database')
+    or die('Error connecting to mysql server');
+    
+  $query = "INSERT INTO profiles (username, password, first_name, last_name, " .
+    "email_address, gender) ". 
+    "VALUES ('solan18033', SHA('Master95'), 'Solan', 'Mani', 'solan1803@googlemail.com', 'M')";
+  
+  $result = mysqli_query($dbc, $query)
+    or die("Error querying database");
+    
+  mysql_close($dbc);
+?>
+  
+  

@@ -1,0 +1,131 @@
+body{
+	margin-top: 100px;
+	font-family: 'Trebuchet MS', serif;
+	line-height: 1.6
+}
+/*
+.profile_picture {
+	width: 200px;
+	height: 200px;
+}*/
+
+.profile_container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.text_center {
+	text-align: center;
+	color: black;
+}
+
+.text {
+	font-size: 18px;
+}
+
+.friend_list {
+	display: inline-block;
+}
+
+.login_date, .profile_date {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.flag {
+	vertical-align: top;
+	margin-top: 4px;
+	margin-left: 4px;
+	float: right;
+}
+
+.language_level {
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.account {
+	color: black;
+	font-size: 20px;
+	background: #ededed
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile_picture_box {
+	height: 170px;
+  width: 173px;
+	display: inline-block;
+};
+
+.profile_picture {
+  display: inline-block;
+}
+
+.location {
+	float: right;
+	font-size: 18px;
+	color: black;
+	margin-top: 4px;
+}
+
+.native_language {
+	font-size: 16px;
+	color: green;
+}
+
+.learning_language_container {
+	font-size: 14px;
+	color: red;
+	#padding-left: 240px;
+}
+
+.status {
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+.introduction_text {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.sex {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.age {
+	margin-left: 4px;
+	margin-top: 4px;
+	display: inline-block;
+	vertical-align: top;
+	color: green;
+	font-size: 16px;
+}
+
+.border_line {
+	border-bottom: 1px solid grey;
+}
+
+.profile_name {
+	color: black;
+	width: 800px;
+	font-size: 20px;
+  display: inline-block;
+	vertical-align: top;
+}
+
+.introduction_textarea {
+	width: 100%;
+	height: 100px;
+}
